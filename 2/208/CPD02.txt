@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () 
+{
+	int i, total; 
+	for (i=1; i<100; i++);
+	    total += i;
+	
+	printf("1到100的偶數和: %d\n", total);
+	system("PAUSE");
+     return 0;
+}
+
